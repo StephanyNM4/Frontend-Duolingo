@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <script src="https://kit.fontawesome.com/bc58745714.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navegador">
+        <div id="usuarios"><img onclick="mostrarUsuarios()" id="goku"src="../Imagenes/profile-pics/goku.jpg" alt=""></div>
+        <div id="coronas">
+            <div><i class="nav-boton fa-solid fa-crown"></i></div>
+            <div class="nav-boton">2</div>
+        </div>
+        <div id="corazones">
+            <div><i class="nav-boton fa-solid fa-heart"></i></div>
+            <div class="nav-boton">5</div>
+        </div>
+    </nav>
+
+    <div id="pantalla-1">
+        <div><img id="img-duo" src="../Imagenes/R.png" alt=""></div>
+
+        <div id="categorias">
+        </div>
+
+    </div>
+
+    <div id="pantalla-2">
+        <div id="palabras">
+            
+        </div>
+    </div>
+
+    
+    <div id="pantalla-3">
+
+        <div id="prueba"></div>
+        </div>
+
+        <button type="button" id="botonUsuario" onclick="agregarUsuario()">Usuario</button>
+    </div>
+    
+    <div id="agregarUsuario">
+        <form id="formulario">
+            <p>Usuario1: </p>
+            <input class="info-usuario" type="text" placeholder="Nombre">
+            <input class="info-usuario" type="text" placeholder="Imagen">
+            <input class="info-usuario" type="number" placeholder="Coronas">
+            <input class="info-usuario" type="number" placeholder="Vidas">
+            <!-- < class="info-usuario"input type="text" placeholder="Resultados"> -->
+            
+            <p>Categoria1: </p>
+            <input class="info-usuario" type="text" placeholder="Correctas">
+            <input class="info-usuario" type="text" placeholder="Incorrectas">
+            <input class="info-usuario" type="text" placeholder="Aprobadas">
+
+            <p>Categoria2: </p>
+            <input class="info-usuario" type="text" placeholder="Correctas">
+            <input class="info-usuario" type="text" placeholder="Incorrectas">
+            <input class="info-usuario" type="text" placeholder="Aprobadas">
+            <br> <br>
+            <button>Guardar</button>
+        </form>
+    </div>  
+    
+    <script src="assets/js/controlador.js"></script>
+</body>
+</html>

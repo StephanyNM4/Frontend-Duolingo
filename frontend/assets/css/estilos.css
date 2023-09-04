@@ -1,0 +1,166 @@
+#navegador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    border: 1px solid gray;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 70px;
+}
+
+
+#goku{
+    border-radius: 100%;
+    height: 50px;
+}
+
+#coronas{
+    display: flex;
+    color: #ffc603ff;
+}
+
+.nav-boton{
+    font-size: 22px;
+}
+
+#corazones{
+    display: flex;
+    color: #ff4a4c;
+}
+
+#pantalla-1{
+    display: none;
+}
+
+#img-duo{
+    height: 150px;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+#categorias{
+    display: flex;
+    justify-content: center;
+}
+
+.cat{
+    margin: 28px;
+    font-size: 40px;
+}
+
+#imagen-categoria{
+    background-color: #ff4a4c;
+    border: 1px solid #ff4a4c;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+
+
+#nombre-categoria{
+    font-size: 30px;
+}
+
+#pantalla-2{
+    display: none;
+}
+
+#texto{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-top: 70px;
+    font-weight: 20px;
+    color: gray;
+    margin-bottom: 80px;
+}
+
+#texto p{
+    margin: 8px;
+}
+
+#cuadros{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 20px;
+}
+
+.cards{
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.cards p{
+    font-size: 40px;
+    color: gray;
+    text-align: center;
+}
+
+#continuar{
+    height: 55px;
+    width: 170px;
+    margin-left: 100px;
+    margin-top: 90px;
+    border: 3px solid rgb(25, 204, 25);
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(25, 204, 25);
+    font-size: 20px;
+}
+
+#pantalla-3{
+    padding: 50px 15px;
+    width: 600px;
+}
+
+#prueba{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#usuarios-p3{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px;
+    width: 100px;
+}
+
+#nombre-usuarios{
+    color:#ff4a4c;
+    font-size: 25px;
+}
+
+#agregarUsuario{
+    display: none;
+}
+
+.info-usuario{
+    border: 1px solid gray;
+    margin: 10px;
+    width: 300px;
+    height: 25px;
+    margin-left: 40px;
+    border-radius: 8px;
+}
+
+#formulario p{
+    text-align: center;
+}
+
+
+
+
+
+
